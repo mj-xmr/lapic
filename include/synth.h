@@ -1,7 +1,7 @@
 #ifndef SYNTH_H
 #define SYNTH_H
 
-FILE *out;
+extern FILE *out;
 
 typedef struct {
     float a[48];

@@ -17,6 +17,8 @@
 void process_text(char *src, wchar_t **dest);
 void err_exit(char *message);
 
+FILE *out;
+
 void print_usage()
 {
     printf("Usage: synth -s \"text\" -o out.wav\n"

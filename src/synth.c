@@ -14,7 +14,6 @@
 
 #define ORDER 48
 #define BUFFER_ORDER 256
-#define SAMPLE_RATE 44100
 #define DX 0.15f
 
 wav_header_t wav_header;
