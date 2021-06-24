@@ -35,6 +35,11 @@ void print_usage()
 
 int main(int argc, char *argv[])
 {
+    if (argc == 1) {
+        print_usage();
+        exit(EXIT_FAILURE);
+    }
+
     setlocale(LC_ALL, "en_US.utf8");
 
     char save_loc[125] = {0};
